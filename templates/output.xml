@@ -1,0 +1,5 @@
+<templateSet group="output">
+  <template name="sout" value="System.out.println($END$);" description="System.out.println" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>

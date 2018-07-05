@@ -1,0 +1,17 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java" />
+      <blacklist language="Groovy" />
+      <blacklist language="Kotlin" />
+    </blacklists>
+    <option id="java.multiple.params.same.type" value="true" />
+    <option id="SHOW_PROPERTY_HINT" value="true" />
+    <option id="java.build.like.method" value="false" />
+    <option id="SHOW_LOCAL_VARIABLE_HINT" value="true" />
+    <option id="SHOW_FUNCTION_HINT" value="true" />
+    <option id="SHOW_PARAMETER_TYPE_HINT" value="true" />
+    <option id="java.method.name.contains.parameter.name" value="false" />
+    <option id="SHOW_SUSPENDING_CALL" value="true" />
+  </component>
+</application>

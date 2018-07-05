@@ -1,0 +1,13 @@
+<application>
+  <component name="GetterTemplates">
+    <option name="defaultTempalteName" value="NotNull_geter" />
+    <option name="templates">
+      <list>
+        <TemplateResource>
+          <option name="fileName" value="NotNull_geter" />
+          <option name="template" value="#if($field.modifierStatic)&#10;static ##&#10;#end&#10;$field.type ##&#10;#set($name = $StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project))))&#10;#if ($field.boolean &amp;&amp; $field.primitive)&#10;  #if ($StringUtil.startsWithIgnoreCase($name, 'is'))&#10;    #set($name = $StringUtil.decapitalize($name))&#10;  #else&#10;    is##&#10;#end&#10;#else&#10;  get##&#10;#end&#10;${name}() {&#10;  #if ($field.string)&#10;     return $field.name == null ? &quot;&quot; : $field.name;&#10;  #else &#10;    #if ($field.list)&#10;    if ($field.name == null) {&#10;        return new ArrayList&lt;&gt;();&#10;    }&#10;    return $field.name;&#10;    #else &#10;    return $field.name;&#10;    #end&#10;  #end&#10;}" />
+        </TemplateResource>
+      </list>
+    </option>
+  </component>
+</application>

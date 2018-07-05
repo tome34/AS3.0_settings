@@ -1,0 +1,52 @@
+<templateSet group="user">
+  <template name="main" value="public static void main(String[] arge){&#10;    $END$&#10;}" description="creat main method" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="in" value="Scanner in = new Scanner(System.in);" description="Scanner in" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="logw" value=" Log.w(&quot;tag&quot;, &quot;$END$&quot;);" description="show a Log.w" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="stoast" value=" ToastUtils.staticToast($className$.this, &quot;$text$&quot;);" description="ToastUtils.staticToast" toReformat="true" toShortenFQNames="true">
+    <variable name="className" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="_textView" value="android.widget.TextView textView = new android.widget.TextView(com.longforus.voidplay.utils.UIUtils.getContext());&#10;        textView.setTextSize(com.longforus.voidplay.utils.UIUtils.dp2px(14));&#10;        textView.setTextColor(android.graphics.Color.BLUE);&#10;        textView.setGravity(android.view.Gravity.CENTER);&#10;        textView.setText(&quot;$END$&quot;);" description="create a TextView" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sv" value="String.valueOf($END$)" description="String.valueOf()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ife" value="if (android.text.TextUtils.isEmpty($string$)) {&#10;    $END$&#10;}" description="TextUtils.isEmpty()" toReformat="true" toShortenFQNames="true">
+    <variable name="string" expression="expectedType()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="gs" value="mActivity.getString(R.string.$END$)" description="getString" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ifne" value="if (!android.text.TextUtils.isEmpty($string$)) {&#10;    $END$&#10;}" description="!TextUtils.isEmpty()" toReformat="false" toShortenFQNames="true">
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

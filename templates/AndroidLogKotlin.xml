@@ -1,0 +1,15 @@
+<templateSet group="AndroidLogKotlin">
+  <template name="logt" value="val TAG = &quot;$className$&quot;" description="val TAG = &quot;$className$&quot;;" toReformat="false" toShortenFQNames="true">
+    <variable name="className" expression="kotlinClassName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="logi" value="com.fec.fecCommon.utils.LogUtils.i(TAG, &quot;$METHOD_NAME$: $content$&quot;)" description="logi" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,11 @@
+<templateSet group="AndroidTool">
+  <template name="okpost" value="okHttpClient = new OkHttpClient();&#10;RequestBody body = new FormBody.Builder()&#10;                .add(&quot;$VAL1$&quot;,&quot;$VAL2$&quot;)&#10;                .build();&#10;        Request request = new Request.Builder()&#10;                .url(path)&#10;                .post(body)&#10;                .build();&#10;        Call call = okHttpClient.newCall(request);&#10;        call.enqueue(new Callback() {&#10;            @Override&#10;            public void onFailure(Call call, IOException e) {&#10;                $VAL3$&#10;            }&#10;&#10;            @Override&#10;            public void onResponse(Call call, Response response) throws IOException {&#10;                $VAL4$&#10;            }&#10;        });" description="OkHttp Post templates" toReformat="true" toShortenFQNames="true">
+    <variable name="VAL1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

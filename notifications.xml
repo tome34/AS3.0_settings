@@ -1,0 +1,6 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="FindBugs: Plugin Suggestion" shouldLog="false" />
+    <notification groupId="FindBugs: R-File Filter Suggestion" shouldLog="false" />
+  </component>
+</application>
