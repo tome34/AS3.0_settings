@@ -6,7 +6,6 @@
       <blacklist language="Kotlin" />
     </blacklists>
     <option id="java.multiple.params.same.type" value="true" />
-    <option id="SHOW_PROPERTY_HINT" value="true" />
     <option id="java.build.like.method" value="false" />
     <option id="SHOW_LOCAL_VARIABLE_HINT" value="true" />
     <option id="SHOW_FUNCTION_HINT" value="true" />
