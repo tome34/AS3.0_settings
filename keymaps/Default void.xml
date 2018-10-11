@@ -2,15 +2,16 @@
   <action id="$EditorTranslateAction">
     <keyboard-shortcut first-keystroke="alt context_menu" />
   </action>
+  <action id="$SelectAll">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
   <action id="$TranslateTextComponent" />
   <action id="ActivateAndroidMonitorToolWindow">
     <keyboard-shortcut first-keystroke="alt 6" />
   </action>
   <action id="ActivateTODOToolWindow" />
   <action id="Back">
-    <keyboard-shortcut first-keystroke="ctrl alt left" />
-    <mouse-shortcut keystroke="button4" />
-    <keyboard-shortcut first-keystroke="alt a" />
+    <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
   <action id="ECTranslation">
     <keyboard-shortcut first-keystroke="meta i" />
@@ -18,6 +19,9 @@
   </action>
   <action id="Editor EditorTranslateAction">
     <keyboard-shortcut first-keystroke="alt context_menu" />
+  </action>
+  <action id="Editor SelectAll">
+    <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="EditorChooseLookupItemCompleteStatement">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
@@ -34,6 +38,7 @@
   <action id="EditorPopupMenuAction">
     <keyboard-shortcut first-keystroke="alt context_menu" />
   </action>
+  <action id="EditorSelectWord" />
   <action id="EditorSplitLine" />
   <action id="EditorTranslateAction">
     <keyboard-shortcut first-keystroke="alt context_menu" />
@@ -41,10 +46,15 @@
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f2" />
   </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="ctrl p" />
     <keyboard-shortcut first-keystroke="ctrl context_menu" />
   </action>
+  <action id="RecentFiles" />
+  <action id="SaveAll" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="ctrl enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
@@ -66,5 +76,8 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
 </keymap>
