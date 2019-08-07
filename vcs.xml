@@ -78,12 +78,21 @@
           <option name="url" value="https://github.com/tome34/mvpDemo.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.com" />
+          <option name="userName" value="tome34" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.2.39:9527" />
+          <option name="userName" value="tome34" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://github.com" />
+          <option name="userName" value="tome34" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="F:\frame\mvpDemo" />
-  </component>
-  <component name="Vcs.Log.App.Settings">
-    <option name="MIGRATED" value="true" />
   </component>
   <component name="VcsApplicationSettings">
     <option name="SHOW_LST_WORD_DIFFERENCES" value="false" />
